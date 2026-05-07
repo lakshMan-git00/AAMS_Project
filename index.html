@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AAMS automatic attendance management system landing page."
+    />
+    <title>AAMS - Automatic Attendance Management System</title>
+    <link rel="icon" type="image/png" href="assets/aams-crop.PNG" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="AAMS home">
+        <img src="assets/aams-crop.PNG" alt="" />
+        <span>AAMS</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Open menu">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#platform">Platform</a>
+        <a href="#modules">Modules</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- <a
+          class="ghost-link"
+          href="file:///C:/Users/laksh/Desktop/codex/signup.html"
+          >Register</a
+        > -->
+        <a
+          class="primary-link"
+          href="file:///C:/Users/laksh/Desktop/codex/login.html"
+        >
+          <i data-lucide="log-in"></i>
+          Checkout AAMS
+        </a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero-section" aria-label="AAMS overview">
+        <img class="hero-bg" src="assets/heroSection.png" alt="" />
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Automatic Attendance Management System</p>
+          <h1>Smarter attendance operations for modern campuses.</h1>
+          <p class="hero-copy">
+            AAMS brings student registration, face based attendance, live
+            records, reporting, and an AI assistant into one focused institution
+            workspace.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="primary-link large"
+              href="file:///C:/Users/laksh/Desktop/codex/login.html"
+            >
+              <i data-lucide="scan-face"></i>
+              Start Attendance
+            </a>
+            <a class="secondary-link large" href="#platform">
+              <i data-lucide="layout-dashboard"></i>
+              Explore System
+            </a>
+          </div>
+
+          <dl class="hero-stats" aria-label="AAMS highlights">
+            <div>
+              <dt>Face</dt>
+              <dd>Recognition</dd>
+            </div>
+            <div>
+              <dt>Live</dt>
+              <dd>Records</dd>
+            </div>
+            <div>
+              <dt>AI</dt>
+              <dd>Assistant</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div
+          class="dashboard-preview"
+          aria-label="Attendance dashboard preview"
+        >
+          <div class="preview-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="preview-grid">
+            <div class="metric-panel">
+              <p>Today</p>
+              <strong>94%</strong>
+              <small>present rate</small>
+            </div>
+            <div class="metric-panel">
+              <p>Active</p>
+              <strong>312</strong>
+              <small>students</small>
+            </div>
+            <div class="student-row">
+              <span class="avatar"></span>
+              <div>
+                <strong>Semester IV</strong>
+                <small>Attendance running</small>
+              </div>
+              <i data-lucide="check-circle-2"></i>
+            </div>
+            <div class="scan-panel">
+              <i data-lucide="scan-line"></i>
+              <span>Face verified</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-section" id="platform">
+        <div class="section-heading">
+          <p class="eyebrow">Built like a product suite</p>
+          <h2>Everything your attendance team needs on one main page.</h2>
+        </div>
+        <p>
+          AAMS as a complete campus platform: clear product navigation, compact
+          features, module entry points, and fast routes into login and
+          registration.
+        </p>
+      </section>
+
+      <section class="section feature-band" aria-label="AAMS capabilities">
+        <article>
+          <i data-lucide="user-plus"></i>
+          <h3>Register Students</h3>
+          <p>
+            Create verified student profiles with institution details and face
+            data ready for attendance sessions.
+          </p>
+        </article>
+        <article>
+          <i data-lucide="camera"></i>
+          <h3>Mark Attendance</h3>
+          <p>
+            Use recognition assisted workflows to reduce manual roll calls and
+            keep classroom activity moving.
+          </p>
+        </article>
+        <article>
+          <i data-lucide="bar-chart-3"></i>
+          <h3>Generate Reports</h3>
+          <p>
+            Review semester, department, and student summaries without digging
+            through disconnected sheets.
+          </p>
+        </article>
+      </section>
+
+      <section class="section modules-section" id="modules">
+        <div class="section-heading">
+          <p class="eyebrow">AAMS modules</p>
+          <h2>Designed around the real admin workflow.</h2>
+        </div>
+
+        <div class="module-grid">
+          <a class="module-card" href="#">
+            <i data-lucide="badge-plus"></i>
+            <span>Register User</span>
+          </a>
+          <a class="module-card" href="#">
+            <i data-lucide="users-round"></i>
+            <span>View User</span>
+          </a>
+          <a class="module-card" href="#">
+            <i data-lucide="square-pen"></i>
+            <span>Update User</span>
+          </a>
+          <a class="module-card" href="#">
+            <i data-lucide="scan-face"></i>
+            <span>Mark Attendance</span>
+          </a>
+          <a class="module-card" href="#">
+            <i data-lucide="calendar-check"></i>
+            <span>View Attendance</span>
+          </a>
+          <a class="module-card" href="#">
+            <i data-lucide="file-chart-column"></i>
+            <span>Generate Report</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section workflow-section" id="workflow">
+        <div class="workflow-copy">
+          <p class="eyebrow">Fast daily operation</p>
+          <h2>From student profile to attendance insight.</h2>
+          <p>
+            AAMS keeps the daily flow simple: enroll students, start attendance,
+            verify records, and export useful summaries for faculty and
+            administrators.
+          </p>
+        </div>
+        <ol class="timeline">
+          <li>
+            <span>01</span>
+            <strong>Create institution records</strong>
+            <p>Register students, departments, semesters, and admin users.</p>
+          </li>
+          <li>
+            <span>02</span>
+            <strong>Run attendance sessions</strong>
+            <p>Capture attendance with recognition assisted marking.</p>
+          </li>
+          <li>
+            <span>03</span>
+            <strong>Monitor and report</strong>
+            <p>Review summaries, spot absences, and generate reports.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="cta-section" id="contact">
+        <div>
+          <p class="eyebrow">Ready for campus use</p>
+          <h2>Open AAMS and continue your attendance work.</h2>
+        </div>
+        <a class="primary-link large" href="#">
+          <i data-lucide="arrow-right"></i>
+          Login to AAMS
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>AAMS - Automatic Attendance Management System</p>
+      <p>Seven semester project - bhairahawa multiple campus</p>
+    </footer>
+  </body>
+</html>
